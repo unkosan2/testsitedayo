@@ -1,11 +1,15 @@
-<style>
-  body {
-    background-color: #f0f8ff;
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 100px;
-  }
-  h1 {
-    color: #d62828;
-  }
-</style>
+body {
+  background-color: #e0f7fa; /* 薄い青（シアン系） */
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  color: #0077b6; /* 濃いめの青 */
+}
+
+p {
+  color: #023e8a; /* さらに濃い青 */
+}
+
