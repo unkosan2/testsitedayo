@@ -3,18 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Test Site Dayo</title>
+  <title>Javakameについて</title>
   <style>
     body {
       margin: 0;
       padding: 0;
       font-family: "Helvetica", sans-serif;
-      background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
+      background: linear-gradient(120deg, #fdfbfb, #ebedee);
       color: #333;
+    }
+
+    nav {
+      background-color: #ffffffcc;
+      backdrop-filter: blur(5px);
+      padding: 1em;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      margin: 0 1em;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #005599;
     }
 
     .card {
@@ -23,35 +39,35 @@
       border-radius: 16px;
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
       text-align: center;
-      max-width: 500px;
-      transition: transform 0.3s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
+      max-width: 600px;
+      margin: 4rem auto;
     }
 
     h1 {
-      margin: 0 0 1rem;
-      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
     }
 
     p {
       color: #555;
-      line-height: 1.6;
+      line-height: 1.6rem;
     }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="kusa.html">🐢 Turtle</a>
+  </nav>
+
   <div class="card">
-    <h1>ようこそ！</h1>
-    <p>Hello, world! これはおしゃれなテストサイトです。</p>
-    <p>こんにちは。私はJavakameです。</p>
-    <p>マインクラフトが好きです。</p>
-    <p>趣味は Minecraft、Kerbal Space Program、猫と遊ぶこと。</p>
-    <p>愛猫の名前は LUNA です。</p>
+    <h1>About - Javakameとは？</h1>
+    <p>こんにちは！私は Javakame です。</p>
+    <p>マイクラとKSPと猫（LUNA）が好きな、暇潰し系クリエイター。</p>
+    <p>このページは自己紹介用の「about」ページです。</p>
   </div>
 </body>
 </html>
+
 
 
