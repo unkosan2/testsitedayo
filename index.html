@@ -1,21 +1,75 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title> JAVAKAMEの暇つぶしブログ</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Javakameの暇潰しブログ</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica", sans-serif;
+      background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+      color: #333;
+    }
+
+    nav {
+      background-color: #ffffffcc;
+      backdrop-filter: blur(5px);
+      padding: 1em;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      margin: 0 1em;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+      transition: color 0.2s;
+    }
+    
+
+    nav a:hover {
+      color: #005599;
+    }
+
+
+    .card {
+      background-color: #fff;
+      padding: 2rem  3rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      max-width: 500px;
+      margin: 4rem auto;
+    }
+
+    h1 {
+      margin: 0 0 1rem;
+      font-size: 1.6rem;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.6rem;
+    }
+  </style>
 </head>
 <body>
   <nav>
-    <a href="index.html">ホーム</a> |
-    <a href="about.html">自己紹介</a> |
-    <a href="kusa.html">クサガメ</a>
+    <a href="index.html">🏠 Home</a>
+    <a href="kusa.html">🐢 Turtle</a>
   </nav>
 
-  <h1>こんにちは！</h1>
-  <p>ここはトップページです。</p>
-  <img src="javakame.png" alt="愛猫ルナ" width="300">
-  
+  <div class="card">
+    <h1>ようこそ！</h1>
+    <p>Hello, world! これはおしゃれなテストサイトです。</p>
+    <p>こんにちは。私はJavakameです。</p>
+    <p>マインクラフトが好きです。</p>
+    <p>趣味は Minecraft、Kerbal Space Program、猫と遊ぶこと。</p>
+    <p>愛猫の名前は LUNA です。</p>
+  </div>
 </body>
 </html>
 
